@@ -20,17 +20,38 @@ GIMP 3 requires every plugin file to live inside its own subfolder named **exact
 * Create a new folder named `all_layers_to_image_size` inside your plug-ins directory.
 * Place your script inside it.
 
-* **Windows:** `%APPDATA%\GIMP\3.0\plug-ins\all_layers_to_image_size\`
-* **macOS:** `~/Library/Application Support/GIMP/3.0/plug-ins/all_layers_to_image_size/`
-* **Linux:** `~/.config/GIMP/3.0/plug-ins/all_layers_to_image_size/`
+* **Windows:**
+   ```cmd
+   %APPDATA%\GIMP\3.0\plug-ins\all_layers_to_image_size\
+   ```
+* **macOS:**
+   ```text
+   ~/Library/Application Support/GIMP/3.0/plug-ins/all_layers_to_image_size/
+   ```
+* **Linux:**
+   ```text
+   ~/.config/GIMP/3.0/plug-ins/all_layers_to_image_size/
+   ```
 
 ### For GIMP 2.10 Users (latest v2.x version)
-* **Windows:** `%APPDATA%\GIMP\2.10\plug-ins\`
-* **macOS:** `~/Library/Application Support/GIMP/2.10/plug-ins/`
-* **Linux:** `~/.config/GIMP/2.10/plug-ins/`
+* **Windows:**
+   ```cmd
+   %APPDATA%\GIMP\2.10\plug-ins\
+   ```
+* **macOS:**
+   ```text
+   ~/Library/Application Support/GIMP/2.10/plug-ins/
+   ```
+* **Linux:**
+   ```text
+   ~/.config/GIMP/2.10/plug-ins/
+   ```
 
 ### For Older GIMP 2.8 Users
-* **Windows:** `%USERPROFILE%\.gimp-2.8\plug-ins\`
+* **Windows:**
+   ```cmd
+   %USERPROFILE%\.gimp-2.8\plug-ins\
+   ```
 
 3. *Linux/macOS only:* Open your terminal and mark the script as executable:
    ```bash
