@@ -14,45 +14,40 @@ When you run the plugin, an interactive menu will pop up offering three ways to 
 ## Installation
 1. Copy the `all_layers_to_image_size.py` file.
 2. Place the file into your version's local GIMP **plug-ins** directory:
-
-### For GIMP 3.x Users (Crucial Folder Step)
-GIMP 3 requires every plugin file to live inside its own subfolder named **exactly** the same as the file. 
-* Create a new folder named `all_layers_to_image_size` inside your plug-ins directory.
-* Place your script inside it.
-
-* **Windows:**
-   ```cmd
-   %APPDATA%\GIMP\3.0\plug-ins\all_layers_to_image_size\
-   ```
-* **macOS:**
-   ```text
-   ~/Library/Application Support/GIMP/3.0/plug-ins/all_layers_to_image_size/
-   ```
-* **Linux:**
-   ```text
-   ~/.config/GIMP/3.0/plug-ins/all_layers_to_image_size/
-   ```
-
-### For GIMP 2.10 Users (latest v2.x version)
-* **Windows:**
-   ```cmd
-   %APPDATA%\GIMP\2.10\plug-ins\
-   ```
-* **macOS:**
-   ```text
-   ~/Library/Application Support/GIMP/2.10/plug-ins/
-   ```
-* **Linux:**
-   ```text
-   ~/.config/GIMP/2.10/plug-ins/
-   ```
-
-### For Older GIMP 2.8 Users
-* **Windows:**
-   ```cmd
-   %USERPROFILE%\.gimp-2.8\plug-ins\
-   ```
-
+    - **For GIMP 3.x Users (Crucial Folder Step)**
+    - GIMP 3 requires every plugin file to live inside its own subfolder named **exactly** the same as the file. 
+      1. Create a new folder named `all_layers_to_image_size` inside your plug-ins directory.
+      2. Place your script inside it.
+        - **Windows:**
+        ```cmd
+        %APPDATA%\GIMP\3.0\plug-ins\all_layers_to_image_size\
+        ```
+        - **macOS:**
+        ```text
+        ~/Library/Application Support/GIMP/3.0/plug-ins/all_layers_to_image_size/
+        ```
+        - **Linux:**
+        ```text
+        ~/.config/GIMP/3.0/plug-ins/all_layers_to_image_size/
+        ```
+    - **For GIMP 2.10 Users (latest v2.x version)**
+      - **Windows:**
+      ```cmd
+      %APPDATA%\GIMP\2.10\plug-ins\
+      ```
+      - **macOS:**
+      ```text
+      ~/Library/Application Support/GIMP/2.10/plug-ins/
+      ```
+      - **Linux:**
+      ```text
+       ~/.config/GIMP/2.10/plug-ins/
+      ```
+    - **For Older GIMP 2.8 Users**
+      - **Windows:**
+      ```cmd
+      %USERPROFILE%\.gimp-2.8\plug-ins\
+      ```
 3. *Linux/macOS only:* Open your terminal and mark the script as executable:
    ```bash
    chmod +x all_layers_to_image_size.py
